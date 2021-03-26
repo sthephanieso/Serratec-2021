@@ -1,0 +1,10 @@
+console.log("Olá, pessoas!");
+console.log("Como vocês estão?");
+console.log("Dormiram bem?");
+console.log("Sei que é dífcil acordar cedo, mas todo esforço e sacríficio vale a pena.");
+console.log("Podemos não estar vendo resultado agora, mas futuramente vamos olhar para trás orgulhosos do que estamos fazendo.");
+console.log("Seremos o Profissional do Futuro.");
+console.log("Então não desanimem e nem desistam...");
+console.log("Estamos juntos nessa!");
+console.log("");
+console.log("Ass: Sthephanie Soares Nogueira.");
