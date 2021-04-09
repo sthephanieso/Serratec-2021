@@ -19,13 +19,15 @@ var total = 0;
 const VALOR = 4.40;
 
 //Processamento
-for(var i = 0; i < 5; i++){
+for(var i = 0; i < 5; ){
     var pass = ler("Tem gratuidade? (Sim ou Nao) ");
     if(pass == "Sim"){
         gratis++;
+        i++;
         console.log("Gatruidade adicionado.");
     } else {
         pago++;
+        i++;
         console.log("Pagante adicionado.");
     }
     console.log("Tem", i, "passageiros no ônibus.");
