@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync')();
+var horas = prompt("Horas trabalhadas mensal: ");
+var valor = prompt("Valor recebido por: ");
+var salario = Math.round(horas * valor);
+var inss = 175;
+var liquido = Math.trunc(salario - inss);
+console.log("Contracheque:");
+console.log("Salário bruto: R$" + salario);
+console.log("Valor do desconto do INSS: R$" + inss);
+console.log("Salário líquido do funcionário: R$" + liquido);
