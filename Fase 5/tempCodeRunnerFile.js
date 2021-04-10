@@ -1,0 +1,1 @@
+adicional = (vendas - 5000) * 0.09
