@@ -43,10 +43,4 @@ FROM produtos
 
 ORDER BY valor DESC
 
-CREATE TABLE public.setor
-(
-	codigo serial PRIMARY KEY,
-	setor text
-);
 
-ALTER TABLE public.setor OWNER to postgres;
