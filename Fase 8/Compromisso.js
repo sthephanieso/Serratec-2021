@@ -2,7 +2,7 @@
 //Você pode digitar um compromisso, informando o dia e a descrição do evento, e consultar se existe algum apontamento para determinado dia.
 const ler = require ('prompt-sync')();
 
-const LIMITE = 32;
+const LIMITE = 31;
 var dia = new Array(LIMITE);
 
 while(agenda != "Nao"){
